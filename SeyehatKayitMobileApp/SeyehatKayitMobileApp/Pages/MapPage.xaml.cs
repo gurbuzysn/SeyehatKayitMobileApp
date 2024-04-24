@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace SeyehatKayitMobileApp.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HomePage : TabbedPage
+    public partial class MapPage : ContentPage
     {
-        public HomePage()
+        public MapPage()
         {
             InitializeComponent();
         }

@@ -10,6 +10,7 @@ namespace SeyehatKayitMobileApp
         {
             InitializeComponent();
 
+
             MainPage = new NavigationPage(new MainPage());
         }
 
