@@ -4,12 +4,12 @@
              x:Class="SeyehatKayitMobileApp.MainPage">
 
     <StackLayout BackgroundColor="White" VerticalOptions="Center">
-        <Entry Placeholder="Email" Keyboard="Email"/>
-        <Entry Placeholder="Şifre" IsPassword="True"/>
-        <Button Text="Giriş Yap"
+        <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email"/>
+        <Entry x:Name="passwordEntry" Placeholder="Şifre" IsPassword="True"/>
+        <Button x:Name="loginButton" Text="Giriş Yap"
                 BackgroundColor="#3F84E5"
-                TextColor="White">
-            
+                TextColor="White"
+                Clicked="loginButton_Clicked">
         </Button>
     </StackLayout>
 
