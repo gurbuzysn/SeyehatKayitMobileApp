@@ -4,7 +4,11 @@
              xmlns:local="clr-namespace:SeyehatKayitMobileApp.Pages"
              x:Class="SeyehatKayitMobileApp.Pages.HomePage">
 
-    <local:ProfilePage Title="Profil"/>
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Ekle" Clicked="ToolbarItem_Clicked"/>
+    </TabbedPage.ToolbarItems>
+
+        <local:ProfilePage Title="Profil"/>
     <local:HistroyPage Title="Hikaye"/>
     <local:MapPage Title="Harita"/>
 

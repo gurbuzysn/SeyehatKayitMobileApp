@@ -3,13 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SeyehatKayitMobileApp.MainPage">
 
-    <StackLayout BackgroundColor="White" VerticalOptions="Center">
-        <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email"/>
-        <Entry x:Name="passwordEntry" Placeholder="Şifre" IsPassword="True"/>
-        <Button x:Name="loginButton" Text="Giriş Yap"
-                BackgroundColor="#3F84E5"
+    <StackLayout BackgroundColor="White" VerticalOptions="Center" Margin="20">
+        
+        <Entry x:Name="emailEntry" 
+               Placeholder="Email" 
+               Keyboard="Email"
+               TextColor="{StaticResource blueColor}"
+               />
+        
+        <Entry x:Name="passwordEntry" 
+               Placeholder="Şifre" 
+               IsPassword="True"
+               TextColor="{StaticResource blueColor}"
+               />
+        <Button x:Name="loginButton" 
+                Text="Giriş Yap"
                 TextColor="White"
-                Clicked="loginButton_Clicked">
+                Clicked="loginButton_Clicked"
+                BackgroundColor="{StaticResource blueColor}"
+                >
         </Button>
     </StackLayout>
 
